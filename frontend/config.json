@@ -1,0 +1,11 @@
+{
+    "undefined": {
+        "prompt": "afsf",
+        "heading1": "afds",
+        "sub_heading1": "afd",
+        "heading2": "afdas",
+        "sub_heading2": "afds",
+        "initial_message": "",
+        "model": "gpt-3.5-turbo"
+    }
+}

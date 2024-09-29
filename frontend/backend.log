@@ -1,0 +1,91 @@
+2024-09-29 13:37:46,919 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-29 13:37:46,919 INFO:[33mPress CTRL+C to quit[0m
+2024-09-29 13:37:46,933 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:37:47,219 WARNING: * Debugger is active!
+2024-09-29 13:37:47,219 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:39:22,467 INFO: * Detected change in 'C:\\Users\\harsh\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\json\\__init__.py', reloading
+2024-09-29 13:39:23,546 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:39:24,191 WARNING: * Debugger is active!
+2024-09-29 13:39:24,195 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:39:31,542 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:39:31,542 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:39:31,542 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:39:31,542 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:39:32,261 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:39:32,646 WARNING: * Debugger is active!
+2024-09-29 13:39:32,646 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:39:34,220 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2024-09-29 13:39:34,220 INFO:[33mPress CTRL+C to quit[0m
+2024-09-29 13:39:34,236 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:39:34,572 WARNING: * Debugger is active!
+2024-09-29 13:39:34,572 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:40:47,007 INFO:127.0.0.1 - - [29/Sep/2024 13:40:47] "OPTIONS /create-bot HTTP/1.1" 200 -
+2024-09-29 13:40:47,369 INFO:Cloned bot directory to C:\Users\harsh\OneDrive\Documents\MINIPROJECTFINAL\botfiles\botcreate4
+2024-09-29 13:40:47,385 INFO:Assigned port 60799 to bot_id 4
+2024-09-29 13:40:47,394 INFO:Started main.py for bot_id 4 on port 60799
+2024-09-29 13:40:47,394 INFO:127.0.0.1 - - [29/Sep/2024 13:40:47] "[35m[1mPOST /create-bot HTTP/1.1[0m" 201 -
+2024-09-29 13:41:05,132 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2024-09-29 13:41:05,132 INFO:[33mPress CTRL+C to quit[0m
+2024-09-29 13:41:05,148 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:41:05,522 WARNING: * Debugger is active!
+2024-09-29 13:41:05,539 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:41:12,848 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:41:12,848 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:41:12,863 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:41:13,617 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:41:14,862 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-29 13:41:14,862 INFO:[33mPress CTRL+C to quit[0m
+2024-09-29 13:41:14,885 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:41:15,320 WARNING: * Debugger is active!
+2024-09-29 13:41:15,324 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:41:21,548 INFO:127.0.0.1 - - [29/Sep/2024 13:41:21] "OPTIONS /create-bot HTTP/1.1" 200 -
+2024-09-29 13:41:21,879 INFO:Cloned bot directory to C:\Users\harsh\OneDrive\Documents\MINIPROJECTFINAL\botfiles\botcreate5
+2024-09-29 13:41:21,879 INFO:Assigned port 61285 to bot_id 5
+2024-09-29 13:41:21,886 INFO:Started main.py for bot_id 5 on port 61285
+2024-09-29 13:41:21,886 INFO:127.0.0.1 - - [29/Sep/2024 13:41:21] "[35m[1mPOST /create-bot HTTP/1.1[0m" 201 -
+2024-09-29 13:41:21,907 INFO:127.0.0.1 - - [29/Sep/2024 13:41:21] "OPTIONS /update-config/5 HTTP/1.1" 200 -
+2024-09-29 13:41:22,226 INFO:Updated config.json for bot_id 5
+2024-09-29 13:41:22,231 WARNING:Port not specified in configuration.
+2024-09-29 13:41:22,231 INFO:127.0.0.1 - - [29/Sep/2024 13:41:22] "[31m[1mPOST /update-config/5 HTTP/1.1[0m" 400 -
+2024-09-29 13:41:30,936 INFO:127.0.0.1 - - [29/Sep/2024 13:41:30] "OPTIONS /create-bot HTTP/1.1" 200 -
+2024-09-29 13:41:31,233 INFO:Cloned bot directory to C:\Users\harsh\OneDrive\Documents\MINIPROJECTFINAL\botfiles\botcreate6
+2024-09-29 13:41:31,236 INFO:Assigned port 61391 to bot_id 6
+2024-09-29 13:41:31,243 INFO:Started main.py for bot_id 6 on port 61391
+2024-09-29 13:41:31,243 INFO:127.0.0.1 - - [29/Sep/2024 13:41:31] "[35m[1mPOST /create-bot HTTP/1.1[0m" 201 -
+2024-09-29 13:41:31,252 INFO:127.0.0.1 - - [29/Sep/2024 13:41:31] "OPTIONS /update-config/6 HTTP/1.1" 200 -
+2024-09-29 13:41:31,563 INFO:Updated config.json for bot_id 6
+2024-09-29 13:41:31,575 WARNING:Port not specified in configuration.
+2024-09-29 13:41:31,576 INFO:127.0.0.1 - - [29/Sep/2024 13:41:31] "[31m[1mPOST /update-config/6 HTTP/1.1[0m" 400 -
+2024-09-29 13:43:48,409 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:48,411 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:48,411 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:48,411 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:48,691 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:43:49,121 WARNING: * Debugger is active!
+2024-09-29 13:43:49,124 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:43:50,594 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:50,595 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:50,595 INFO: * Detected change in 'C:\\Users\\harsh\\OneDrive\\Documents\\MINIPROJECTFINAL\\frontend\\BackendDash.py', reloading
+2024-09-29 13:43:51,188 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:43:51,587 WARNING: * Debugger is active!
+2024-09-29 13:43:51,591 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:44:41,120 INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-29 13:44:41,120 INFO:[33mPress CTRL+C to quit[0m
+2024-09-29 13:44:41,133 INFO: * Restarting with watchdog (windowsapi)
+2024-09-29 13:44:41,466 WARNING: * Debugger is active!
+2024-09-29 13:44:41,466 INFO: * Debugger PIN: 650-654-224
+2024-09-29 13:45:15,025 INFO:127.0.0.1 - - [29/Sep/2024 13:45:15] "OPTIONS /create-bot HTTP/1.1" 200 -
+2024-09-29 13:45:15,366 INFO:Cloned bot directory to C:\Users\harsh\OneDrive\Documents\MINIPROJECTFINAL\botfiles\botcreate2
+2024-09-29 13:45:15,369 INFO:Assigned port 63804 to bot_id 2
+2024-09-29 13:45:15,377 INFO:Started main.py for bot_id 2 on port 63804
+2024-09-29 13:45:15,378 INFO:127.0.0.1 - - [29/Sep/2024 13:45:15] "[35m[1mPOST /create-bot HTTP/1.1[0m" 201 -
+2024-09-29 13:45:15,395 INFO:127.0.0.1 - - [29/Sep/2024 13:45:15] "OPTIONS /update-config/2 HTTP/1.1" 200 -
+2024-09-29 13:45:15,710 INFO:Updated config.json for bot_id 2
+2024-09-29 13:45:15,713 INFO:Terminated bot_id 2 successfully.
+2024-09-29 13:45:15,719 INFO:Started main.py for bot_id 2 on port 63804
+2024-09-29 13:45:15,719 INFO:127.0.0.1 - - [29/Sep/2024 13:45:15] "POST /update-config/2 HTTP/1.1" 200 -

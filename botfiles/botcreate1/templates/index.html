@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat AI Bot</title>
+    <link rel="stylesheet" href="static/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+    <script>
+      var chatbotIconUrl = "{{ url_for('static', filename='images/' + config.get('chatbot_icon', 'default_icon.png')) }}";
+    </script>
+  </head>
+  <body>
+    <audio id="audio-element" style="display: none;"></audio>
+    <div id="demo-popup" class="demo-popup">
+      <div class="demo-popup-content">
+        <h2>Exclusive Preview</h2>
+        <div class="royal-divider"></div>
+        <p>This is a Demo Version of the Chatbot.</p>
+        <button id="load-chatbot-btn">LOAD CHATBOT</button>
+      </div>
+    </div>
+    <div class="tabrobotics-container">
+      <div class="tabrobotics-chatbot-wrapper">
+        <div class="tabrobotics-chatbot-toggler">
+          <div id="video-container">
+            <video id="patricia-video" class="video-fade" playsinline webkit-playsinline disablePictureInPicture>
+                <source src="{{ url_for('static', filename='images/intro.mp4') }}" type="video/mp4">
+            </video>
+            <video id="speaking-video" class="video-fade" style="display:none;" playsinline webkit-playsinline muted disablePictureInPicture>
+            </video>
+            <video id="patricia2-video" class="video-fade" style="display:none;" playsinline webkit-playsinline muted disablePictureInPicture>
+                <source src="{{ url_for('static', filename='images/idle.mp4') }}" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- Commented out video input container
+        <div class="video-input-container">
+          <input type="text" class="video-input" placeholder="Type a message...">
+          <div class="video-button-container">
+            <span class="video-microphone-btn material-symbols-outlined"><i class="ph-duotone ph-microphone"></i></span>
+            <span class="video-send-btn material-symbols-outlined"><i class="ph-duotone ph-paper-plane-right"></i></span>
+          </div>
+        </div>
+        -->
+      </div>
+      
+      <div class="tabrobotics-chatbot">
+        <header>
+          <div class="tabrobotics-header-content">
+            <img src="{{ url_for('static', filename='images/' + chat_icon) }}" alt="Chat Icon" class="tabrobotics-chat-icon">
+            <div id="vg-header-left-text" class="vg-flex vg-flex-col vg-gap-0">
+              <p id="vg-header-left-title" class="vg-text-medium vg-font-bold vg-leading-unit-5 vg-text-white vg-header-left-text--title">{{ config.heading1 }}</p>
+              <div class="vg-inline-block vg-text-small vg-opacity-75 vg-leading-unit-5 vg-text-white vg-header-left-text--desc vg-vgd-text-view">
+                <p>{{ config.sub_heading1 }}</p>
+              </div>
+            </div>
+          </div>
+          <span class="material-symbols-outlined tabrobotics-close-btn">close</span>
+        </header>
+        <ul class="tabrobotics-chatbox">
+          <div class="tabrobotics-xlt-content">
+            <video id="xlt-video" src="/static/images/idle.mp4" style="object-fit: cover;" alt="XLT Transport" class="tabrobotics-xlt-image" loop playsinline webkit-playsinline muted disablePictureInPicture autoplay></video>
+            <div class="tabrobotics-xlt-text">
+                <h2>{{ config.heading2 }}</h2>
+                <p>{{ config.sub_heading2 }}</p>
+            </div>
+        </div>
+          <li class="tabrobotics-chat tabrobotics-incoming">
+            <span><img src="{{ url_for('static', filename='images/' + chatbot_icon) }}" style="object-fit: cover;" alt=""></span>
+            <p>{{ config.initial_message }}</p>
+          </li>
+        </ul>
+        <div class="tabrobotics-chat-input">
+          <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+          <button class="icon-btn microphone-btn"><i class="ph-duotone ph-microphone"></i></button>
+          <span class="icon-btn sended-btn"><i class="ph-duotone ph-paper-plane-right"></i></span>
+        </div>
+        <small class="powered-by">powered by voicetech.io</small>
+      </div>
+      
+      <div id="tabrobotics-popup-chatbot" class="tabrobotics-popup-chatbot">
+        <div class="tabrobotics-popup-header">
+          <span class="tabrobotics-close-popup">×</span>
+        </div>
+        <div class="tabrobotics-popup-content">
+          <p>Hey, this is Patricia. Thanks for stopping by. How can I help?</p>
+        </div>
+      </div>
+    </div>
+    <audio id="response-sound" src="/static/sfx/pop.mp3" preload="auto"></audio>
+  </body>
+</html>

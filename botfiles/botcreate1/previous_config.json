@@ -1,0 +1,16 @@
+{
+    "prompt": "WHIRRRRR",
+    "chatbot_video": "intro.mp4",
+    "chat_icon": "xltfinal.png",
+    "xlt_image": "bluecolor.png",
+    "chatbot_icon": "person1.jpg",
+    "dataset_pdf": "dataset.pdf",
+    "pdf_name": "dataset.pdf",
+    "data_py": "data.py",
+    "model": "gpt-3.5-turbo",
+    "heading1": "XLT Transportation",
+    "sub_heading1": "Xellence Limousine Transportation",
+    "heading2": "XLT Transportation",
+    "sub_heading2": "Xellence Limousine Transportation",
+    "initial_message": "Hey, this is Patricia. Thanks for stopping by. How can I help?"
+}
